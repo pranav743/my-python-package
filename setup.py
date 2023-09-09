@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="pranav",
@@ -6,7 +6,7 @@ setup(
     description="A package for colorized printing and list printing",
     author="Pranav Patil",
     author_email="your.email@example.com",
-    packages=["pranav"],
+    packages=find_packages(),
     install_requires=[
         "colorama",
     ],
